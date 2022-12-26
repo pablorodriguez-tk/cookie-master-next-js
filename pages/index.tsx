@@ -1,3 +1,9 @@
+import { Layout } from "../components/layouts";
+
 export default function Home() {
-  return <h1>Cokkie Master</h1>;
+  return (
+    <Layout>
+      <h1>Cookie Master</h1>
+    </Layout>
+  );
 }
